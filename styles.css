@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+#container div{
+  
+   display: flex;
+   flex: 1 0 calc(100% / 16);
+   height: calc(100% / 16);
+   background-color: hsl(0, 0%, 70%);
+}
+
