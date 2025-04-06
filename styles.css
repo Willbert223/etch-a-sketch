@@ -2,6 +2,8 @@ body{
     margin: 0;
 }
 
+
+
 #container div{
   
    display: flex;
@@ -10,3 +12,12 @@ body{
    background-color: hsl(0, 0%, 70%);
 }
 
+.gridSquare {
+    border: 1px solid black;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease;
+  }
