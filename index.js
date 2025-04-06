@@ -63,7 +63,6 @@ function changeBackgroundColorOnHover(newDiv) {
       for (let i = 0; i < size * size; i++) {
         const square = document.createElement('div');
         square.classList.add('gridSquare');
-        square.textContent = `Div ${i + 1}`;
         square.style.width = `${squareSize}px`;
         square.style.height = `${squareSize}px`;
         gridContainer.appendChild(square);
