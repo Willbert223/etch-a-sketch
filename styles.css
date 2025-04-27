@@ -1,2 +1,19 @@
+/*make the divs appear using flexbox aligned in grid format*/
 
+#divContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px; /* adjust size as needed */
+    margin: 0 auto; /* center horizontally */
+    margin-top: 50px; /* optional, push down */
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#divContainer div {
+    flex: 1 0 calc(25% - 10px); /* 4 items per row */
+    height: 100px; /* example height */
+    background-color: lightgray; /* example background */
+}
 
