@@ -1,4 +1,10 @@
 // create 16 div elements located inside a container
+const container = document.getElementById('container');
+
+for (let i = 0; i < 16; i++) {
+    const div = document.createElement('div');
+    container.appendChild(div);
+}
 
 // make the divs appear using flexbox aligned in grid format
 // box the divs with a border in the center of the screen
